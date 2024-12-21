@@ -1,0 +1,138 @@
+/* Body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Subtext */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Gift Card Image */
+.gift-card {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+/* Timer Wrapper */
+.timer-wrapper {
+    background: #f38181;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+/* How to Use Box */
+.how-to-use-box {
+    background: #fef9ef;
+    border: 1px solid #f38181;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.how-to-use-box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.how-to-use-box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.how-to-use-box li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Claim Button */
+.claim-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+
+.claim-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #999;
+}
+/* Timer Wrapper */
+.timer-wrapper {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: black; /* Set text color to black */
+    animation: timer-color-change 6s infinite;
+}
+
+/* Timer Color Change Animation */
+@keyframes timer-color-change {
+    0% { background: #f38181; }
+    25% { background: #84fab0; }
+    50% { background: #8fd3f4; }
+    75% { background: #ffecd2; }
+    100% { background: #f38181; }
+}
+/* How to Use Box */
+.how-to-use-box {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee); /* Gradient background */
+    color: #333; /* Text color */
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    animation: box-color-change 6s infinite alternate; /* Add animation for color changes */
+}
+
+/* Animation for Color Change */
+@keyframes box-color-change {
+    0% { background: #fbc2eb; }
+    50% { background: #fad0c4; }
+    100% { background: #a6c1ee; }
+}
